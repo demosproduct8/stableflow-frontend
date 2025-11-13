@@ -5,7 +5,7 @@ import csv
 from io import StringIO
 
 # Backend API URL - Update if deployed elsewhere
-API_BASE = "http://localhost:8000" # Change to your Render URL, e.g., "https://your-mvp.onrender.com"
+API_BASE = "https://stableflow-backend.onrender.com"# Change to your Render URL, e.g., "https://your-mvp.onrender.com"
 
 st.set_page_config(
     page_title="StableFlow Pay - Secure Stablecoin Movement",
