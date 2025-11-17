@@ -336,7 +336,7 @@ if current_page == "Home":
         st.markdown("""
         <div class="feature-card-content">
         • Threshold-based authorization<br>
-        • Real Mainnet integration<br>
+        • Real Mainnet integration (currently implemented only for Solana)<br>
         • Stablecoins : USDT, USDC, PYUSD & USDe<br>
         • High-value transaction queuing
         </div>
@@ -386,7 +386,7 @@ elif current_page == "Create Wallet":
                 # Blockchain network dropdown
                 blockchain_network = st.selectbox(
                     "Select Chain or Network:",
-                    ["Bitcoin", "Ethereum", "Aave", "Base", "Solana", "Sui", "BSC", "Tron", "Arbitrum"],
+                    ["Solana", "Ethereum", "Aave", "Base", "Sui", "BSC", "Tron", "Arbitrum"],
                     help="Select the blockchain network for this wallet"
                 )
              
